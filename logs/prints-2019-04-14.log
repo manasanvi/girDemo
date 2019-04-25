@@ -1,0 +1,9 @@
+15:31:57.234 [main] INFO  HomePage.base - Choosing browser
+15:31:59.503 [main] INFO  HomePage.base - Got browser
+15:35:57.478 [main] INFO  HomePage.base - Opening website
+15:35:57.482 [main] INFO  HomePage.base - Choosing browser
+15:36:00.412 [main] INFO  HomePage.base - Got browser
+15:36:23.335 [main] INFO  HomePage.base - Sign In with UN and PW
+15:36:23.624 [main] INFO  HomePage.base - Sign In complete
+15:36:23.628 [main] INFO  HomePage.base - Sign In with UN and PW
+15:36:23.826 [main] INFO  HomePage.base - Sign In complete

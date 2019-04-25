@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <!-- <listeners>
+        <listener name="HomePage.Mylistener"/>
+    </listeners> -->
+	<test thread-count="5" name="validatingHomePage">
+		<classes>
+			<class name="HomePage.validateHomePage" />
+		</classes>
+	</test>
+	<test name="LoginPage">
+		<classes>
+			<class name="HomePage.LoginPage" />
+		</classes>
+
+	
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

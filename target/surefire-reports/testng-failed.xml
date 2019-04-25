@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="validatingHomePage(failed)">
+    <classes>
+      <class name="HomePage.validateHomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validatehome"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- HomePage.validateHomePage -->
+      <class name="HomePage.LoginPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- HomePage.LoginPage -->
+    </classes>
+  </test> <!-- validatingHomePage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
